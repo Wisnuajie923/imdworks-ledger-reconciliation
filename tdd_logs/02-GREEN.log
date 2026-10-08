@@ -1,0 +1,9 @@
+test_01_funding (test_ledger.LedgerTests.test_01_funding) ... ok
+test_02_failed_withdraw_rolls_back (test_ledger.LedgerTests.test_02_failed_withdraw_rolls_back) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.045s
+
+OK
+
+returncode=0

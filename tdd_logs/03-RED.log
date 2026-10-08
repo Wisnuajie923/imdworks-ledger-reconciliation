@@ -1,0 +1,16 @@
+test_03_independent_reconciliation (test_ledger.LedgerTests.test_03_independent_reconciliation) ... FAIL
+
+======================================================================
+FAIL: test_03_independent_reconciliation (test_ledger.LedgerTests.test_03_independent_reconciliation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/imdworks-work/ledger-reconciliation/test_ledger.py", line 44, in test_03_independent_reconciliation
+    self.assertIsNotNone(importlib.util.find_spec('reconcile'), 'independent reconciler missing')
+AssertionError: unexpectedly None : independent reconciler missing
+
+----------------------------------------------------------------------
+Ran 1 test in 0.013s
+
+FAILED (failures=1)
+
+returncode=1

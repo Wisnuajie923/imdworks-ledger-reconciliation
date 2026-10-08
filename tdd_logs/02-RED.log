@@ -1,0 +1,16 @@
+test_02_failed_withdraw_rolls_back (test_ledger.LedgerTests.test_02_failed_withdraw_rolls_back) ... FAIL
+
+======================================================================
+FAIL: test_02_failed_withdraw_rolls_back (test_ledger.LedgerTests.test_02_failed_withdraw_rolls_back)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/imdworks-work/ledger-reconciliation/test_ledger.py", line 22, in test_02_failed_withdraw_rolls_back
+    self.assertTrue(hasattr(m, 'award'), 'settlement transition missing')
+AssertionError: False is not true : settlement transition missing
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (failures=1)
+
+returncode=1

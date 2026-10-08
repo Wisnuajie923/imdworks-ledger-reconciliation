@@ -1,0 +1,19 @@
+test_01_funding (test_ledger.LedgerTests.test_01_funding) ... FAIL
+
+======================================================================
+FAIL: test_01_funding (test_ledger.LedgerTests.test_01_funding)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/imdworks-work/ledger-reconciliation/test_ledger.py", line 12, in test_01_funding
+    m = self.model()
+        ^^^^^^^^^^^^
+  File "/root/imdworks-work/ledger-reconciliation/test_ledger.py", line 7, in model
+    self.assertIsNotNone(importlib.util.find_spec('model'), 'transition model missing')
+AssertionError: unexpectedly None : transition model missing
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+
+returncode=1

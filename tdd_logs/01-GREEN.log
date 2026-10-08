@@ -1,0 +1,8 @@
+test_01_funding (test_ledger.LedgerTests.test_01_funding) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+
+OK
+
+returncode=0
