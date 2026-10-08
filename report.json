@@ -1,0 +1,13 @@
+{
+  "deterministic_seed": "case_id-sequence-v1",
+  "failures": [],
+  "generated_cases": 120,
+  "reconciled_ok": 120,
+  "reconciliation_failures": 0,
+  "requested_cases": 120,
+  "schema": 1,
+  "status": "PASS",
+  "unit_test_count": 3,
+  "unit_tests_passed": true,
+  "unit_tests_returncode": 0
+}
