@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "title": "Implement an auditable bounty ledger reconciliation tool",
+  "bounty_uuid": "78b729e1-288b-48ea-9253-c8a60754e312",
+  "bounty_number": 15,
+  "escrow_id": 10,
+  "chain_id": 4663,
+  "author": "0xD7AFdc66e0C1Cca76Aca8537f30d10a324E246f1",
+  "signoff": "enueex https://x.com/AjaPawang",
+  "repository": "https://github.com/Wisnuajie923/imdworks-ledger-reconciliation",
+  "repository_commit": "7a8f92d238789a371442a3e5437fb66ff52d35c3",
+  "reproduction": "git clone https://github.com/Wisnuajie923/imdworks-ledger-reconciliation.git && cd imdworks-ledger-reconciliation && git checkout 7a8f92d238789a371442a3e5437fb66ff52d35c3 && python3 run_tests.py",
+  "artifact_url": "https://codeload.github.com/Wisnuajie923/imdworks-ledger-reconciliation/tar.gz/7a8f92d238789a371442a3e5437fb66ff52d35c3",
+  "artifact_sha256": "875dcf1b2767b9fe79b592e59aa96d04ff87b142f1b7a10d590a2b42fc83599b",
+  "report_url": "https://raw.githubusercontent.com/Wisnuajie923/imdworks-ledger-reconciliation/7a8f92d238789a371442a3e5437fb66ff52d35c3/generated/report.json",
+  "report_sha256": "2043aab296e213e5af8de554d1e442967ed9bf0567254f2af3f236ed6622b4aa",
+  "fresh_archive_replay_exit": 0,
+  "dependencies": "Python standard library; pinned solc binary for #14",
+  "limitations": [
+    "Creator-selected 1 USDG reward; submission does not guarantee payment.",
+    "No wallet, credential, approval, transfer or withdrawal is part of the artifact.",
+    "#14 compares pinned Sourcify runtime input and explicitly does not claim fresh RPC-chain data."
+  ],
+  "results": {
+    "generated_cases": 120,
+    "reconciled_ok": 120
+  }
+}
